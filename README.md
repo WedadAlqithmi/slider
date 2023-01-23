@@ -1,5 +1,4 @@
-# hw_training_projects
-
+# Flutter widget practice 
 A new Flutter project.
 
 ## Getting Started
