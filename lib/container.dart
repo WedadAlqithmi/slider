@@ -9,10 +9,14 @@ class ProdContainer extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Container(
-        height: 200,
-        width: 200,
+        height: 400,
+        width: 400,
         color: Colors.grey[800],
-        child: Center(child: Text(child, style: TextStyle(fontSize: 24),)),
+        child: Center(
+            child: Text(
+          child,
+          style: TextStyle(fontSize: 24),
+        )),
       ),
     );
   }

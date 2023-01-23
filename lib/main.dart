@@ -15,13 +15,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[900],
-      //appBar: AppBar(title: Text("wh_training projects "), centerTitle: true),
+      appBar: AppBar(title: Text("wh_training projects "), centerTitle: true),
       body: Column(
         children: [
           //instagram stories
           Container(
             margin: const EdgeInsets.all(16.0),
-            height: 100,
+            height: 80,
+            width: double.infinity,
             child: Expanded(
                 //child:ListView(scrollDirection: Axis.horizontal,children: [],
                 child: ListView.builder(
