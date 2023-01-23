@@ -15,7 +15,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[900],
-      appBar: AppBar(title: Text("wh_training projects "), centerTitle: true),
+      appBar: AppBar(
+          title: Text("instagram"),
+          centerTitle: true,
+          backgroundColor: Color.fromARGB(255, 66, 66, 66)),
       body: Column(
         children: [
           //instagram stories
